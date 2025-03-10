@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+        section {
+            height: 100vh;
+            padding: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+        nav {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#section1">Go to Section 1</a>
+        <a href="#section2">Go to Section 2</a>
+        <a href="#section3">Go to Section 3</a>
+    </nav>
+
+    <section id="section1" style="background-color: lightblue;">
+        <h2>Section 1</h2>
+        <p>This is section 1.</p>
+    </section>
+
+    <section id="section2" style="background-color: lightgreen;">
+        <h2>Section 2</h2>
+        <p>This is section 2.</p>
+    </section>
+
+    <section id="section3" style="background-color: lightcoral;">
+        <h2>Section 3</h2>
+        <p>This is section 3.</p>
+    </section>
+
+</body>
+</html>
